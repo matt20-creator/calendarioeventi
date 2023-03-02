@@ -1,0 +1,10 @@
+calendario_eventi:
+  css:
+    theme:
+      /calendarioeventi/libraries/owlcarousel/dist/assets/owl.carousel.min.css: {}
+      /calendarioeventi/libraries/owlcarousel/dist/assets/owl.theme.default.min.css: {}
+      /calendarioeventi/assets/css/style.css: {}
+  js:
+    /calendarioeventi/assets/js/jquery-3.6.0.min.js: {}
+    /calendarioeventi/libraries/owlcarousel/dist/owl.carousel.min.js: {}
+    /calendarioeventi/assets/js/custom.js: {}

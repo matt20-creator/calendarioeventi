@@ -1,0 +1,237 @@
+#calendario-siena .owl-item {
+    background: white;
+    /* height: 380px; */
+    height: auto;
+    border-right: solid 1px #dddddd;
+    box-shadow: 20px 0px 20px 15px #888888;
+    padding: 20px;
+}
+
+
+/*#it-block-calendarioeventiblock .bottone-tutti a {*/
+/*    color: #414141;*/
+     background: #f2f7fc;
+    /*font-weight: 600;*/
+    /*text-decoration: none;*/
+/*}*/
+
+ /*.bottone-tutti {*/
+ /*   width: 100%;*/
+ /*   text-align: center;*/
+ /*   background: #f9a800;*/
+ /*   padding: 10px;*/
+ /*   border-bottom-right-radius: 4px;*/
+ /*   border-bottom-left-radius: 4px;*/
+/*}*/
+/**/
+#calendario-siena {
+    position: relative;
+    -webkit-box-shadow: 0 2px 20px 0 rgb(0 0 0 / 10%);
+    box-shadow: 0 2px 20px 0 rgb(0 0 0 / 30%);
+}
+#calendario-siena .owl-stage {
+    display: flex;
+}
+#calendario-siena .owl-next {
+    padding: 5px 5px;
+    font-size: 22px;
+    background: #003366;
+    position: absolute;
+    top: 35%;
+    z-index: 9;
+    border-radius: 50px;
+}
+
+#calendario-siena .owl-prev {
+    padding: 5px 5px;
+    font-size: 22px;
+    background: #003366;
+    position: absolute;
+    top: 35%;
+    z-index: 9;
+    border-radius: 50px;
+}
+
+#calendario-siena .owl-controls {
+    margin: 0px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%!important;
+    display: block;
+    height: 50px;
+    /* z-index: -1; */
+    height: 0px;
+}
+
+#calendario-siena .owl-prev {
+    left: -10px!important;
+}
+
+#calendario-siena .owl-next {
+    right: -10px;
+}
+
+
+
+#calendario-siena div a {
+    padding: 18px;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+
+#calendario-siena span.cal_day_number {
+    font-size: 35px;
+    font-weight: 100;
+    color: black;
+    line-height: 0px;
+    font-weight: 500;
+}
+
+#calendario-siena span.cal_day_text {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 0px;
+    color: black;
+    text-transform: lowercase;
+    padding-left: 0px;
+}
+
+#calendario-siena span.cal_title a {
+    margin: 10px 0px;
+    display: inline-block;
+    border-top: solid 1px #dddddd;
+    width: 100%;
+    color: black;
+}
+
+/*#scelta_mese_anno {*/
+/*    text-align: center;*/
+/*    font-size: 21px;*/
+/*    background: #515253;*/
+/*    color: white;*/
+/*    padding: 8px 0px;*/
+/*    font-weight: 600;*/
+/*    border-radius: 4px 4px 0 0;*/
+/*}*/
+
+
+/*.Message_calendar {*/
+/*    width: 300px;*/
+/*    text-align: center;*/
+/*    margin: 0 auto;*/
+/*    padding: 50px 0;*/
+/*    font-family: "Titillium Web", Helvetica, Arial, sans-serif;*/
+/*    color: #515253;*/
+/*    font-size: 20px;*/
+/*}*/
+/**/
+/*.owl-wrapper {*/
+/*    display: flex!important;*/
+/*}*/
+
+#scelta_mese_anno_indietro {
+    float: left;
+}
+
+#scelta_mese_anno_avanti {
+    float: right;
+}
+
+
+
+
+
+#calendario-siena a {
+    text-decoration: none;
+}
+
+#calendario-siena .owl-item div a {
+    color: #000000;
+
+}
+#calendario-siena .owl-item div {
+    border-bottom: solid 1px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    position: relative;
+}
+
+
+
+#calendario-siena div a:last-child{
+    position: absolute !important;
+    font-size: 0px;
+    top: 0px;
+    left: 0px;
+    border: none !important;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+#calendario-siena div a:first-child {
+    font-size: inherit;
+    position: relative !important;
+}
+
+#calendario-siena div a.link_vedi_tutto_data {
+    font-size: inherit;
+    position: relative !important;
+}
+
+#calendario-siena .owl-item .views-field.views-field-field-data-in-calendario-6 a, #calendario-siena .owl-item .views-field.views-field-field-data-in-calendario-6 {
+    margin-top: 20px;
+    color: black;
+    font-weight: 500;
+}
+
+#calendario-siena .views-field.views-field-field-data-in-calendario-3 {
+    text-align: left;
+    padding: 18px;
+}
+
+/*.input-daterange {*/
+/*}*/
+/**/
+/*.home-second-row__wrapper {*/
+/*    margin-top: 60px;*/
+/*}*/
+
+span#scelta_mese_anno_label {
+    text-transform: capitalize;
+}
+
+#calendario-brescia span.data{
+    display: none;
+}
+
+
+#scelta_mese_anno_indietro {
+    display: none;
+}
+#scelta_mese_anno_avanti {
+    display: none;
+}
+.input-daterange {
+    height: auto !important;
+}
+
+
+.owl-dots {
+    position: absolute;
+    width: 100%;
+    bottom: -90px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    opacity: 1!important;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: .67rem;
+    height: .67rem;
+    margin: 0 .22rem;
+    background-color: #0059B3 !important;
+    opacity: .3
+}
+

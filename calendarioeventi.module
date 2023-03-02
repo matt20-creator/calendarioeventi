@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains calendarioeventi.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function calendarioeventi_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the calendarioeventi module.
+    case 'help.page.calendarioeventi':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function calendarioeventi_theme() {
+  return [
+    'calendarioeventi' => [
+      'render element' => 'children',
+    ],
+  ];
+}
